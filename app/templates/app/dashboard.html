@@ -12,8 +12,8 @@
 	<![endif]-->
 
 	{% if no_processingnodes %}
-		<!-- <h3>{% trans 'Welcome!' %} ☺</h3> -->
-		<h3>Welcome To AMX Cosmos Plot!</h3>
+		<h3>{% trans 'Welcome!' %} ☺</h3>
+		<!-- <h3>Welcome To AMX Cosmos Plot!</h3> -->
 		{% trans 'Add a Processing Node' as add_processing_node %}
 		{% with nodeodm_link='<a href="https://github.com/OpenDroneMap/NodeODM" target="_blank">NodeODM</a>' api_link='<a href="https://github.com/OpenDroneMap/NodeODM/blob/master/docs/index.adoc" target="_blank">API</a>' %}
 			<p>
@@ -25,8 +25,8 @@
 	{% else %}
 		
 		{% if no_tasks %}
-			<!-- <h3>{% trans 'Welcome!' %} ☺</h3> -->
-			<h3>Welcome To AMX Cosmos Plot!</h3>
+			<h3>{% trans 'Welcome!' %} ☺</h3>
+			<!-- <h3>Welcome To AMX Cosmos Plot!</h3> -->
 			{% trans 'Select Images and GCP' as upload_images %}
 			<p>
 				{% blocktrans %}To create a map, press the "{{ upload_images }}" button, or drag and drop some images into a project.{% endblocktrans %}
