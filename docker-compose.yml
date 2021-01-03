@@ -6,7 +6,7 @@ volumes:
   appmedia:
 services:
   db:
-    image: opendronemap/webodm_db
+    image: amxinnovation/amxcosmosplot
     container_name: db
     ports:
       - "5432"
