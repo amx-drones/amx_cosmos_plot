@@ -7,7 +7,7 @@ from nodeodm.models import ProcessingNode
 def rename_default_node(apps, schema_editor):
     for default_node in ProcessingNode.objects.filter(hostname='node-odm-1'):
         default_node.hostname = 'amx_cosmos_plot_node-odm_1'
-        default_node.label = 'node-odm-1'
+        default_node.label = 'amx_cosmos_plot_node-odm_1'
         default_node.save()
     
 class Migration(migrations.Migration):
